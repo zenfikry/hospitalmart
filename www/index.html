@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Stoqo | Template Almosame</title>
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,user-scalable=0">
+    <meta charset="UTF-8">
+    <link href="assets/line-awesome/css/line-awesome.min.css" rel="stylesheet">
+    <link href="assets/theme.css" rel="stylesheet">
+    <link href="assets/datepicker/jquery.ui.all-datepicker.css" rel="stylesheet">
+    <link href="assets/slick/slick.css" rel="stylesheet">
+    <link href="assets/slick/slick-theme.css" rel="stylesheet">
+    <link href="assets/style.css" rel="stylesheet"  >
+    <link href="assets/fonts/roboto/roboto.css" rel="stylesheet">
+    <script type="text/javascript" src="cordova.js"></script>
+    <style>
+        body{font-family:'Roboto',Arial,Tahoma,sans-serif;overflow-x:hidden}
+        #sidebar{display:none;z-index:5;top:0px;width:270px}
+        #sidebar .footer{bottom:0;position:fixed;z-index:1;width:270px}
+        .nav-btn{width:53px;height:53px}
+        .btn-cart{padding:7px 5px;width:65px}
+        .bottom-bar i{font-size:28px!important}
+        .bottom-bar span{font-size:13px;display:block}
+        
+        #content-home{padding:53px 0 0}
+        
+        #slider-home .dot-round{margin-top:-29px}
+        #slider-home .slick-dots{position:relative;top:-13px}
+        #slider-home .slick-dots li.slick-active button:before{color:white;opacity:1}
+        #slider-home .slick-dots li button:before{font-size:10px;opacity:.55;color:white}
+        #slider-home .slick-dots li{margin:0}
+        #slider-home .slick-dots{background-color:rgba(0,0,0,0.37);display:inline;border-radius:10px;padding:0}
+        #slider-home .slick-dots{margin-top:10px}
+        #slider-home .slick-dots li button{height:28px}
+        #slider-home{margin-bottom:0!important}
+        
+        .cat-icons{width:63px;height:63px}
+        .cat-icons .la{padding-top:5px}
+        .item-product{width:149px;min-height:283px}
+        .item-product .details{padding:8px 13px}
+        .list-product{margin-top:-5px}
+        .text-gray-1{color:#555!important}
+        .text-gray-2{color:#999!important}
+        
+        #nav-sign{height:4px;position:relative;top:-0.5px}
+        #navbar-tab{color:#dfdfdf!important}
+        #navbar-tab-after{height:59px}
+        
+        .select, .input{background-color:rgba(0,0,0,0)}
+        .select:focus, .input:focus{border-bottom:2px #99F solid}
+        a{text-decoration:none}
+        .s20{width:20%}
+        .list-product{margin-top:-5px}
+        #loading {
+          position: fixed;
+          z-index: 999999;
+          height: 3em;
+          width: 3em;
+          overflow: show;
+          margin: auto;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          display: none;
+        }
+        /* Transparent Overlay */
+        #loading:before {
+          content: '';
+          display: block;
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color:rgba(255,255,255,0.8);
+
+        } 
+
+        .loader {
+            border: 16px solid #f3f3f3; /* Light grey */
+            border-top: 16px solid #3498db; /* Blue */
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 2s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body class="light-gray" style="overflow-x:hidden">
+ <div id="loading"> 
+    <div class="loader"></div>
+</div>
+
+ <div id="content-app">
+        <div id="menu_kiri"></div> 
+        <div id="main-content-app">  
+                
+        </div>
+        <div class="padding-32"></div>
+    </div>
+<script src="assets/jquery-1.9.1.min.js"></script>
+<script src="assets/slick/slick.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="assets/system.js"></script>
+<script src="function.js"></script>
+
+</body>
+</html>
